@@ -4,6 +4,7 @@ import HomePage from "./pages/Home";
 import RegisterPage from "./pages/Register";
 import SignInPage from "./pages/SignIn";
 import NavBar from "./components/Navbar";
+import FeedPage from "./pages/FeedPage";
 
 
 import "./App.css";
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/signin" element={<SignInPage />} />
+        <Route path="/feed" element={<FeedPage />} />
       </Routes>
     </>
   );
